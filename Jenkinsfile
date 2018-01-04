@@ -1,6 +1,6 @@
 node {
   def project = 'devops-preprod'
-  def appName = 'codelab'
+  def appName = 'geru'
   def imageTag = "gcr.io/${project}/${appName}:${env.BRANCH_NAME}.${env.BUILD_NUMBER}"
 
   checkout scm
